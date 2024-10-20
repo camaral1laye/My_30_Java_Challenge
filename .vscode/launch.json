@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Constant",
+            "request": "launch",
+            "mainClass": "Day04.Constant",
+            "projectName": "My_30_Java_Challenge_c98fe5d7"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day04.Main",
+            "projectName": "My_30_Java_Challenge_c98fe5d7"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Day03.Main",
