@@ -1,0 +1,76 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day03.Main",
+            "projectName": "My_30_Java_Challenge_c98fe5d7"
+        },
+        {
+            "type": "java",
+            "name": "Me",
+            "request": "launch",
+            "mainClass": "Day03.Me",
+            "projectName": "My_30_Java_Challenge_c98fe5d7"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "Day01.HelloWorld",
+            "projectName": "My_30_Java_Challenge_c98fe5d7"
+        },
+        {
+            "type": "java",
+            "name": "Laye",
+            "request": "launch",
+            "mainClass": "Day02.Laye",
+            "projectName": "My_30_Java_Challenge_c98fe5d7"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Day02.Main",
+            "projectName": "My_30_Java_Challenge_c98fe5d7"
+        }
+    ]
+}
