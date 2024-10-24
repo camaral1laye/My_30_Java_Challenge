@@ -68,4 +68,5 @@ public class DataTypes {
         String S3 = S1 + S2;
         System.out.println("The value of S1 and S2 is: " + S3);
     }
+    
 }

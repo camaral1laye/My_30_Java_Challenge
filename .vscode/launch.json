@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CallingStringMethods",
+            "request": "launch",
+            "mainClass": "Day05.CallingStringMethods",
+            "projectName": "My_30_Java_Challenge_c98fe5d7"
+        },
+        {
+            "type": "java",
             "name": "DataTypes",
             "request": "launch",
             "mainClass": "Day05.DataTypes",
