@@ -7,26 +7,39 @@ public class DataTypes {
         IntergerData();
         BytesData();
         ShortData();
+        LongData();
     }
 
     public static void IntergerData(){
-        int a = 10;
-        int b = 20;
-        int c = a + b;
-        System.out.println("Sum of a and b is: " + c);
+        int Ia = 10;
+        int Ib = 20;
+        int Ic = Ia + Ib;
+        System.out.println("Sum of a and b is: " + Ic);
 
     }
     public static void BytesData(){
 
-        byte  a = 10;
-        byte  b = 5;
-        System.out.println("diffence of a and b is: " + (a - b));
+        byte  Ba = 10;
+        byte  Bb = 5;
+        System.out.println("diffence of a and b is: " + (Ba - Bb));
         
     }
     public static void ShortData(){
-        short a = 10;
-        short b = 5;
-        short c = (short) (a * b);
-        System.out.println("diffence of a and b is: " + c);
+        short Sa = 10;
+        short Sb = 5;
+        short Sc = (short) (Sa * Sb);
+        System.out.println("Multiply of a and b is: " + Sc);
+    }
+    public static void LongData(){
+        long La  = 20;
+        long Lb = 15;
+        long Lc = (Lb-La);
+        System.out.println("The difference of a and b is: " + Lc);
+    }
+    public static void FloatData(){
+        float Fa = 15;
+        float Fb = 25;
+        float Fc = (Fa + Fb);
+        System.out.println("The result of a and b is: " + Fc);
     }
 }
