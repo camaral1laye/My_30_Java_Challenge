@@ -5,10 +5,10 @@ public class CallingStringMethods {
     String s1 = "LayE";
     String s2 = " CaMaRa";
     
-
     //toUpperCase(), toLowerCase() method
     System.out.print(s1.toUpperCase());
     System.out.println(s2.toLowerCase());
+    
 
     //s1length()
 
@@ -40,8 +40,7 @@ public class CallingStringMethods {
     //concat()
     String c4 = "Hello";
     String c3 = c4.concat(" World");
-
-
+    
    System.out.println(c3);
     }
 
