@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TheScanner",
+            "request": "launch",
+            "mainClass": "Day06.TheScanner",
+            "projectName": "My_30_Java_Challenge_c98fe5d7"
+        },
+        {
+            "type": "java",
+            "name": "Scanner",
+            "request": "launch",
+            "mainClass": "Day06.Scanner",
+            "projectName": "My_30_Java_Challenge_c98fe5d7"
+        },
+        {
+            "type": "java",
             "name": "ConcatenatingString",
             "request": "launch",
             "mainClass": "Day05.ConcatenatingString",
