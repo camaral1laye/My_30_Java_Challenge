@@ -4,8 +4,9 @@ public class Main {
     public static void main(String[] args){
 
         String myName = "Laye Camara";
+        String myNamecopy = new String("Laye camara");
+        //myNamecopy = myName;
         String myJob = "Software Developer";
-        String myNamecopy = "Laye Camara";
         myName ="Another Name";
 
         System.out.println(myNamecopy);
