@@ -7,8 +7,8 @@ public class TheScanner {
         Scanner input = new Scanner(System.in);  // Create Scanner object to read input
         System.out.print("Enter your name: ");
         System.out.println("Your name is : " +input.nextLine());
-        System.out.println("what is your age");
-        System.out.println("What is your age: " + input.nextLine());
+        System.out.print("what is your age: ");
+        System.out.println("Your age is: " + input.nextLine());
         
 input.close();  // Close the Scanner object
     }
